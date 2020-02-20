@@ -1,0 +1,31 @@
+- name: ps-zookeeper-prd-zn-01-00
+  cpus: 1
+  memory: 2000
+  hostname: ps-zookeeper-prd-zn-01-00
+  ip: 192.168.66.30
+  sistema: centos/7
+
+- name: ps-kafka-prd-zn-01-00
+  cpus: 2
+  memory: 2000 
+  hostname: ps-kafka-prd-zn-01-00
+  ip: 192.168.66.31
+  sistema: centos/7
+  brokerid: 0
+
+- name: ps-kafka-prd-zn-02-01
+  cpus: 2
+  memory: 2000
+  hostname: ps-kafka-prd-zn-02-01
+  ip: 192.168.66.32
+  sistema: centos/7
+  brokerid: 1
+
+- name: ps-kafka-prd-zn-03-02
+  cpus: 2
+  memory: 2000
+  hostname: ps-kafka-prd-zn-03-02
+  ip: 192.168.66.33
+  sistema: centos/7
+  brokerid: 2
+
